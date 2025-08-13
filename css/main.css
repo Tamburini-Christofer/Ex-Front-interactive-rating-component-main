@@ -1,3 +1,5 @@
+/*Generali*/
+
 *{
     margin: 0;
     padding: 0;
@@ -21,13 +23,18 @@ p{
     color: hsl(217, 12%, 63%);
 }
 
+/*Card*/
+
+
 .card{
     margin: 9% auto;
     background-color: #202731;
     border-radius: 20px;
-    width: 300px;
-    padding:16px 20px;
+    width: 320px;
+    padding:16px 30px;
 }
+
+/*Button*/
 
 button{
     cursor: pointer;
@@ -60,6 +67,8 @@ img{
     padding: 10px 16px;
 }
 
+/*Hover + Active*/
+
 .bt_nb:hover,
 .submit:hover{
     color: black;
@@ -75,4 +84,15 @@ img{
 .flex_bt{
     display: flex;
     justify-content: space-between;
+}
+
+/****************************************************/
+/*responsive*/
+
+@media screen and (max-width:380px) {
+
+    .card{
+        margin: 40% auto;
+    }
+    
 }
