@@ -6,17 +6,18 @@
 
 body{
     background-color: hsl(216, 12%, 8%);
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Overpass", Arial, Helvetica, sans-serif;
 }
 
 h1{
     font-size: 20px;
     color: white;
-    margin: 20px 0 10px 0;
+    margin: 26px 0 10px 0;
 }
 
 p{
+    line-height: 18px;
     color: hsl(217, 12%, 63%);
 }
 
@@ -24,8 +25,8 @@ p{
     margin: 9% auto;
     background-color: #202731;
     border-radius: 20px;
-    width: 311px;
-    padding:20px 30px;
+    width: 300px;
+    padding:16px 20px;
 }
 
 button{
@@ -33,27 +34,45 @@ button{
 }
 
 .submit{
+    margin: 10px 0;
     letter-spacing: 2px;
     font-weight: 600;
     background-color: hsl(25, 97%, 53%);
     border: 0;
     border-radius: 20px;
-    padding: 8px 94px;
+    padding: 8px 96px;
 }
 
 img{
-    max-width: 100%;
+    max-width: 12px;
 }
 
 .circle{
     background-color:#262f38;
     border: 0;
     border-radius: 100%;
-    padding: 10px;
+    padding: 10px 12px;
 }
 
 .bt_nb{
     color: hsl(217, 12%, 63%);
-    margin: 20px 10px 20px 0;
-    padding: 10px 15px;
+    margin: 20px 0px 20px 0;
+    padding: 10px 16px;
+}
+
+.bt_nb:hover,
+.submit:hover{
+    color: black;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.bt_nb:active,
+.submit:active{
+    color: black;
+    background-color:white;
+}
+
+.flex_bt{
+    display: flex;
+    justify-content: space-between;
 }
