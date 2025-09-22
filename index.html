@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--Questo progetto dovrebbe contenere codice JavaScript, ma 
-    al momento della realizzione, non ho ancora affrontato 
-    tale argomento-->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,22 +13,24 @@
     <main>
 
         <div class="card">
-
-            <div>
+            <form action="#" id="sceltaUtente">
+                <div>
                 <button class="circle"><img class="icon" src="img/icon-star.svg" alt="Stella"></button>
                 <h1>How did we do?</h1>
                 <p>Please let us know how we did with your support request. All feedback is appreciated to help us
                     improve our offering!</p>
 
                 <div class="flex_bt">
-                    <button class="circle bt_nb">1</button>
-                    <button class="circle bt_nb">2</button>
-                    <button class="circle bt_nb">3</button>
-                    <button class="circle bt_nb bg_white">4</button>
-                    <button class="circle bt_nb">5</button>
+                    <button class="circle bt_nb" id="scelta1" type="button">1</button>
+                    <button class="circle bt_nb" id="scelta2" type="button">2</button>
+                    <button class="circle bt_nb" id="scelta3" type="button">3</button>
+                    <button class="circle bt_nb" id="scelta4" type="button">4</button>
+                    <button class="circle bt_nb" id="scelta5" type="button">5</button>
                 </div>
-                <a href="page2.html"><button class="submit">SUBMIT</button></a>
+                <button class="submit" id="submit">SUBMIT</button>
             </div>
+        </form>
+            
         </div>
     </main>
 </body>

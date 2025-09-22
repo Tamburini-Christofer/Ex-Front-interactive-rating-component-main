@@ -55,7 +55,7 @@ button{
 }
 
 img{
-    margin: 10px 25%;
+    margin: 10px 3px;
     max-width: 45%;
 }
 
@@ -63,7 +63,7 @@ img{
     background-color:#262f38;
     border: 0;
     border-radius: 100%;
-    padding: 10px 12px;
+    padding: 0px 8px;
 }
 
 .bt_nb{
@@ -80,10 +80,6 @@ img{
     background-color:#262f38;
     margin: 20px 0px 10px 0;
 }
-
-.bg_white{
-    color: black;
-    background-color: white;}
 
 /*Hover + Active*/
 
